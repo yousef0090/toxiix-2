@@ -183,16 +183,6 @@ client.on("message", message => { //clear
        
 });
 
-ent.on("message", async message => {
-    if(message.content.startsWith(prefix +"ip")) {
-        let help = new Discord.RichEmbed()
-            .setColor("RANDOM")
-            .setThumbnail(message.author.avatarURL)
-            .setDescription(`**سيرفر ماين كرافت الجوال | Version 1.1__ 
- 
-                            88.198.62.16  : اي بي السيرف 
-
-                                        25687 : البورت
 
 
 
