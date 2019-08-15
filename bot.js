@@ -185,4 +185,11 @@ client.on("message", message => { //clear
 
 
 
+@bot.event
+    async def on_member_join(self, member):
+        guild = member.guild
+            wlc_msg = 'Welcome {0.name} to {1.name}!'.format(member, guild)
+            channel = client.get_channel(ايدي الروم)
+            await channel.send(wlc_msg)
+
 client.login(process.env.BOT_TOKEN);
