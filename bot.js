@@ -188,7 +188,7 @@ ent.on("message", async message => {
         let help = new Discord.RichEmbed()
             .setColor("RANDOM")
             .setThumbnail(message.author.avatarURL)
-            .setDescription(`**ipسيرفر ماين كرافت الجوال | Version 1.1__ 
+            .setDescription(`**سيرفر ماين كرافت الجوال | Version 1.1__ 
  
                             88.198.62.16  : اي بي السيرف 
 
