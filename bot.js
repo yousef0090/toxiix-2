@@ -155,7 +155,7 @@ client.on("message", async message => {
             معلومات عن السيرفر : ${prefix}server
             برودكاست للأونلاين فقط : ${prefix}bco
             يعرض لك عدد المتبندين من سيرفرك : ${prefix}banned
-            رابط سيرفر الدعم الفني : https://discord.gg/k6MvfrC
+        
             **`);
             message.channel.sendEmbed(help); // رابط السيرفر يعود الى سيرفر CODES .
     }
@@ -184,8 +184,6 @@ client.on("message", message => { //clear
 });
 
 
-
-@bot.event
     async def on_member_join(self, member):
         guild = member.guild
             wlc_msg = 'Welcome {0.name} to {1.name}!'.format(member, guild)
