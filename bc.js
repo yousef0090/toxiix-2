@@ -23,10 +23,11 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : ixVolBiNa ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Dynamic , -bc`,"http://twitch.tv/S-F")
+client.user.setGame(`Dynàmic , -bc`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 
 
 
-client.login("NTg3OTQ4MTE5NzIzOTk5Mjcy.XP-7oA.aW2P17TKofymWnGrlwXpz7ZqU28");
+client.login(process.env.BOT_TOKEN);
+
