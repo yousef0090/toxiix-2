@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "-";
+var prefix = "+";
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "bc")) {
@@ -23,7 +23,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : ixVolBiNa ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Dynamic , -bc`,"http://twitch.tv/S-F")
+client.user.setGame(`.Mσe ❥ ,+bc`,"http://twitch.tv/S-F")
 client.user.setStatus("dnd")
 });
 
